@@ -89,6 +89,12 @@
 }
 
 .jd_bannerImg>li img {
+    /* 去除文本基线的方法
+    1.设置为块元素
+    2.可以将文本的字体大小设置为0
+    3.vertical-align:bottom
+    */
+    display: block;
     width: 100%;
 }
 
@@ -116,4 +122,27 @@
 
 .jd_bannerIndicator>li.active {
     background-color: #fff;
+}
+
+/* -------------------------------------------- */
+/* 导航栏样式 */
+.jd_nav {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.jd_nav li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.jd_nav li img {
+    width: 60px;
+}
+
+.jd_nav li p {
+    line-height: 25px;
+    color: #666666;
 }
