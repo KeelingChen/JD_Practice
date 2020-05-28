@@ -4,7 +4,7 @@
     max-width: 640px;
     /* 最小宽度 */
     min-width: 320px;
-    background-color: #ccc;
+    background-color: #eee;
     margin: 0 auto;
     /* height: 900px; */
 }
@@ -147,7 +147,7 @@
     color: #666666;
 }
 
-/* ------------------------------ */
+/* ---------产品样式--------------------- */
 .jd_product {
     width: 100%;
 }
@@ -156,6 +156,7 @@
     width: 100%;
     margin-top: 10px;
     background-color: #fff;
+    box-shadow: 13px 16px 6px #ccc;
 }
 
 .jd_productBox>.jd_pTip {
@@ -165,10 +166,12 @@
     border-bottom: 1px solid #ccc;
     color: #666;
     padding-left: 30px;
+
 }
 
 .jd_productBox>.jd_pTip>h3 {
     position: relative;
+
 }
 
 .jd_productBox>.jd_pTip>h3::before {
@@ -202,4 +205,41 @@
 
 .b_right {
     border-right: 1px solid #ccc;
+}
+
+/* 设置样式标记：秒杀块 */
+.js_sk {}
+
+.jd_sk>.jd_pTip {
+    border-bottom: none;
+    padding-left: 16px;
+}
+
+.jd_sk>.jd_pTip>.jd_left>.jd_sk_icon {
+    width: 16px;
+    height: 20px;
+    background: url(../images/sk.png);
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+.jd_sk>.jd_pTip>.jd_left>.jd_sk_text {
+    margin-right: 8px;
+    color: red;
+}
+
+.jd_sk>.jd_pTip>.jd_left>.jd_sk_time>span {
+    display: inline-block;
+    width: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
+
+.jd_sk>.jd_pTip>.jd_left>.jd_sk_time>span:nth-last-child(3n) {
+    color: #000;
+    background-color: white;
+    width: 8px;
 }
