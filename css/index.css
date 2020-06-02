@@ -243,3 +243,22 @@
     background-color: white;
     width: 8px;
 }
+
+.jd_sk .jd_pContent {
+    padding: 20px;
+}
+
+.jd_sk .jd_pContent>ul {
+    width: 100%;
+}
+
+.jd_sk .jd_pContent>ul>li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.jd_sk .jd_pContent>ul>li img {
+    width: 68%;
+    display: inline-block;
+}
